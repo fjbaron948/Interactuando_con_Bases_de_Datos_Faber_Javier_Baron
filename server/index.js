@@ -38,5 +38,5 @@ app.use('/usuarios', RoutingUsers) //Incluir el módulo usuarios y definir su di
 app.use('/events', RoutingEvents) //Incluir el módulo eventos bajo y definir su directorio raíz como /events
 
 Server.listen(PORT, function() { //Iniciar el servidor
-  console.log('Server is listening on port: ' + PORT) //Mostrar mensaje de inicialización del servidor en la cónsola.
+  console.log('Servidor corriendo en el puerto: ' + PORT) //Mostrar mensaje de inicialización del servidor en la cónsola.
 })
